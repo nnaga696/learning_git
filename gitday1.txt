@@ -1,0 +1,60 @@
+    1  ls
+    2  pwd
+    3  git clone https://github.com/mnagen/learning_git.git
+    4  ls
+    5  cd learning_git/
+    6  ls
+    7  cat README.md 
+    8  touch aws.txt
+    9  ls
+   10  clear
+   11  ls
+   12  rm -rf learning_git/
+   13  clear
+   14  git clone https://github.com/mnagen/learning_git.git
+   15  ls
+   16  ls -lrt
+   17  clear
+   18  cd learning_git/
+   19  ls
+   20  touch aws.txt
+   21  ls
+   22  cat aws.txt \
+   23  ls
+   24  cd learning_git/
+   25  ls
+   26  cat aws.txt 
+   27  vi azure.txt
+   28  ls
+   29  cat azure.txt 
+   30  git status
+   31  git add .
+   32  git status
+   33  git commit -m " added files"
+   34  git status
+   35  git config --global user.email "mnagsai99@gmail.com"
+   36  git config --global user.name "mnagen"
+   37  git status
+   38  git commit -m "added two files"
+   39  git push
+   40  clear
+   41  git log --oneline
+   42  ls
+   43  touch gcp.txt
+   44  git add .
+   45  git commit -m "gcp.txt"
+   46  git log --oneline
+   47  git push
+   48  git log --oneline
+   49  touch oraclecloud.txt
+   50  git add .
+   51  git status
+   52  git commit -m "oracle file created"
+   53  git log --oneline
+   54  git push
+   55  git log --oneline
+   56  ls
+   57  git log --oneline --all --graph
+   58  git log --oneline --all 
+   59  history
+   60  history > gitday1.txt
